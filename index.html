@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>Fly to a location based on scroll position</title>
+    <title>Population trends in Indian cities</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
@@ -14,7 +14,8 @@
 <div id='features'>
     <section id='intro' class='active'>
         <h3>Introduction</h3>
-        <p>This Project aims at visualizing the population of the 25 most densely populated cities in India currently, in the years !971, 2001 and 2011, and using this information to analyse changes in the population density.</p>
+        <p>This Project aims at visualizing the population of the 25 most densely populated cities in India currently, in the years 1971, 2001 and 2011, and using this information to analyze how the population has changed in various cities over the years.</p>
+        <p>We used concentric circles of different colors to represent the population over different years. <span style="color: #0000ff;"><strong>Blue</strong></span>&nbsp;<span style="color: #000000;">represents the population of <strong><span style="color: #0000ff;">1971</span></strong>, </span><span><span style="color: #ff6600;"><strong><span style="color: #ff0000;">Red</span>&nbsp;</strong></span>of <strong><span style="color: #ff0000;">2001</span></strong>, and <strong><span style="color: #00ff00;">Green</span> </strong>of <strong><span style="color: #00ff00;">2011</span></strong>. The area of a circle is directly proportional to the population size it represents.</span></p>
     </section>
     <section id='delhi'>
         <h3>New Delhi and Ghaziabad</h3>
@@ -62,7 +63,12 @@
     </section>
     <section id='conclusion'>
         <h3>Conclusion</h3>
-        <p>Summary can zoom back to the original view.</p>
+        <p>There are some very clear and interesting trends that come out of this visualization:</p>
+        <ol>
+        <li>All metro cities' population has become saturated to some extent between 2001 to 2011, the rate of change of population isn't as significant as in other parts of the country, and the population is getting increasing faster in suburbs of these cities.</li>
+        <li>Kolkata is the only city in the most populated cities whose population has decreased as compared to 1971.</li>
+        <li>The rate of increase of population in the western and southern non-metro cities of the country is much significantly higher than in the northern and central cities. Our guess is this could be because of the boom in the IT industry in the southern cities.</li>
+        </ol>
     </section>
 </div>
 </body>
