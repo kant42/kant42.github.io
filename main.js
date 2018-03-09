@@ -31,6 +31,36 @@ var chapters = {
     	bearing: -23.20,
     	pitch: 50.50,
     },
+    'north1': {
+    	center: [7.377.214,26.702],
+    	zoom: 7.3,
+    	bearing: 100,
+    	pitch: 60,
+    },
+    'north2': {
+    	center: [81.774,25.904],
+    	zoom: 7.3,
+    	bearing: 100,
+    	pitch: 60,
+    },
+    'central':{
+    	center: [77.964,22.078],
+    	zoom: 7.1,
+    	bearing: 0,
+    	pitch: 0,
+    },
+    'south1' {
+    	center: [81.524,16.681],
+    	zoom: 6.7,
+    	bearing: -108.30,
+    	pitch: 56.5,
+    },
+    'south2'{
+    	center: [77.285,10.985],
+    	zoom: 7,
+    	bearing: 165.30,
+    	pitch: 59,
+    },
     'kolkata': {
     	center: [88.809,22.496],
     	zoom: 7.5,
