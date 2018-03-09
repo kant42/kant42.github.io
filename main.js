@@ -32,7 +32,7 @@ var chapters = {
     	pitch: 50.50,
     },
     'north1': {
-    	center: [7.377.214,26.702],
+    	center: [77.214,26.702],
     	zoom: 7.3,
     	bearing: 100,
     	pitch: 60,
@@ -49,17 +49,23 @@ var chapters = {
     	bearing: 0,
     	pitch: 0,
     },
-    'south1' {
+    'gujarat':{
+    	center: [71.781,23.067],
+    	zoom: 6.9,
+    	bearing: -92,
+    	pitch: 60,
+    },
+    'south1':{
     	center: [81.524,16.681],
     	zoom: 6.7,
-    	bearing: -108.30,
+    	bearing: -108.3,
     	pitch: 56.5,
     },
-    'south2'{
-    	center: [77.285,10.985],
-    	zoom: 7,
-    	bearing: 165.30,
-    	pitch: 59,
+    'south2':{
+    	center: [76.811,11.746],
+    	zoom: 6.9,
+    	bearing: 166.60,
+    	pitch: 60,
     },
     'kolkata': {
     	center: [88.809,22.496],
@@ -68,10 +74,10 @@ var chapters = {
     	pitch: 60,
     },
     'conclusion': {
-        center: [82.8, 23.88],
-        zoom: 4,
-        bearing: 0,
-        pitch: 0,
+        center: [80.781,18.127],
+        zoom: 4.5,
+        bearing: 0.48,
+        pitch: 45.5,
     }
 };
 
