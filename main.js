@@ -2,8 +2,8 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2hvdXJ5YXNodWtsYSIsImEiOiJjamR5ajE2NTAwbTZpM
 
 var chapters = {
     'intro': {
-        center: [82.8, 23.88],
-        zoom: 3.5,
+        center: [81.8, 23.88],
+        zoom: 4,
         bearing: 0,
         pitch: 0,
     },
@@ -50,7 +50,7 @@ var chapters = {
     	pitch: 0,
     },
     'gujarat':{
-    	center: [71.781,23.067],
+    	center: [71.619,22.169],
     	zoom: 6.9,
     	bearing: -92,
     	pitch: 60,

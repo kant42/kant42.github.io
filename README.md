@@ -1,7 +1,3 @@
-# Mapbox Scrollytelling Starter Template
+This Project aims at visualizing the population of the 25 most densely populated cities in India currently, in the years 1971, 2001 and 2011, and using this information to analyze how the population has changed in various cities over the years.
 
-Fork this to make your own Scrollytelling piece with Maps!
-
-This template is based on a [Mapbox GL JS example](https://www.mapbox.com/mapbox-gl-js/example/scroll-fly-to/).
-
-To try this locally, run a [Python server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server).
+We used concentric circles of different colors to represent the population over different years. Blue represents the population of 1971, Red of 2001, and Green of 2011. The area of a circle is directly proportional to the population size it represents.
